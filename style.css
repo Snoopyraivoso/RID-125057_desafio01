@@ -1,0 +1,135 @@
+*{
+    margin: 0px;
+    font-family: inter;
+}
+#tituloMenuSuperior {
+    margin-left: 70px;
+    margin-top: 250px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 60px;
+    line-height: 72px;
+    letter-spacing: -0.025em;
+    font-feature-settings: 'liga' off;
+    color: white;
+}
+#textoMenuSuperior {
+    margin-left: 70px;
+    margin-bottom: 100px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 28px;
+    font-feature-settings: 'liga' off;
+    color: white;
+}
+#menuSuperior {
+    background-color: #303030;
+    display: grid;
+}
+#menuInformacional {
+    background-color: #EAECE5;
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+    text-align: center;
+}
+#textoInformativo img {
+    width: 40%;
+    margin-top: 80px;
+    margin-bottom: 60px;
+}
+#secaoHistoria{
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+}
+#tituloimg {
+    margin-top: 300px;
+    margin-left: 70px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+}
+#textImg {
+    margin-left: 70px;
+    margin-top: 50px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+}
+#secaoHistoria img {
+    margin-top: 80px;
+    margin-bottom: 80px;
+    text-align: center;
+    width: 70%;
+    
+}
+#formulario {
+    background-color: #303030;
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+    text-align: center; 
+}
+#tituloForm {
+    margin-bottom: 10px;
+    margin-top: 75px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 70px;
+    text-align: center;
+    color: #FFFFFF;
+}
+input {
+    width: 450px;
+    height: 60px;
+    background-color: white;
+    margin: 20px;
+    border: 0px;
+    border-radius: 10px;
+    padding-left: 20px;
+    font-family: 'inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 30px;
+    color: rgba(0, 0, 0, 0.466);
+}
+button {
+    background: #C07212;
+    border-radius: 10px;
+    border: 0;
+    padding: 25px 50px 25px 50px;
+    font-family: 'inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 30px;
+    color: #FFFFFF;
+    margin-bottom: 100px;
+    cursor: pointer;
+    margin-bottom: 100px;
+    margin-top: 50px;
+}
+button:hover {
+    background-color: #c07921;
+    color: white;
+    transform: translateY(-5px);
+    transition-duration: 0.3s;
+    box-shadow: 0px 10px 10px #c078213f;
+}
